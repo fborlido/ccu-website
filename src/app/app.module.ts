@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { GroupComponent } from './group/group.component';
+import { DescriptionComponent } from './description/description.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -21,7 +22,8 @@ import { MatCardModule } from '@angular/material/card';
     AppComponent,
     NavigationComponent,
 		TabsComponent,
-    GroupComponent
+    GroupComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,

@@ -3,8 +3,8 @@ mat-grid-tile {
 }
 
 mat-card {
-	width: 400px;
-	height: 270px;
+	width: 30%;
+	height: 80%;
 }
 
 img {
@@ -13,10 +13,10 @@ img {
 }
 
 mat-card-subtitle {
-	font-size: 16px;
+	font-size: 1em;
 }
 
 mat-card-content {
-	margin-top: 75px;
-	font-size: 22px;
+	margin-top: 1em;
+	font-size: 1.7em;
 }

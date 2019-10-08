@@ -10,12 +10,14 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { GroupComponent } from './group/group.component';
 import { DescriptionComponent } from './description/description.component';
+import { ProjectComponent } from './project/project.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { MatCardModule } from '@angular/material/card';
     NavigationComponent,
 		TabsComponent,
     GroupComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { MatCardModule } from '@angular/material/card';
     MatButtonModule,
     MatGridListModule,
 		MatTabsModule,
-		MatCardModule
+		MatCardModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

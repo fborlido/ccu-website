@@ -17,7 +17,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
-import { MatExpansionModule } from '@angular/material/expansion';
+import { MatTreeModule } from '@angular/material/tree';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatGridListModule,
 		MatTabsModule,
 		MatCardModule,
-    MatExpansionModule
+    MatTreeModule,
+		MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

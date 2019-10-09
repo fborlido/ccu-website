@@ -29,24 +29,25 @@ const TREE_DATA: ProjNode[] = [
 				content: 'THIS IS MADNESS'
 			},
     ]
-  }, {
-    name: 'Vegetables',
-    children: [
-      {
-        name: 'Green',
-        children: [
-          {name: 'Broccoli'},
-          {name: 'Brussel sprouts'},
-        ]
-      }, {
-        name: 'Orange',
-        children: [
-          {name: 'Pumpkins'},
-          {name: 'Carrots'},
-        ]
-      },
-    ]
   },
+	// {
+  //   name: 'Vegetables',
+  //   children: [
+  //     {
+  //       name: 'Green',
+  //       children: [
+  //         {name: 'Broccoli'},
+  //         {name: 'Brussel sprouts'},
+  //       ]
+  //     }, {
+  //       name: 'Orange',
+  //       children: [
+  //         {name: 'Pumpkins'},
+  //         {name: 'Carrots'},
+  //       ]
+  //     },
+  //   ]
+  // },
 ];
 
 @Component({

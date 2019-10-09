@@ -14,10 +14,11 @@ img {
 }
 
 mat-card-subtitle {
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 mat-card-content {
-	margin-top: 1em;
-	font-size: 1.7em;
+	margin-top: 4.1rem;
+	font-size: 2rem;
+	text-align: center;
 }
